@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="icon" href="./assets/logo.png">
+   <link rel="stylesheet" href="spotify.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+    <title>Spotify - web player: Music fo everyone</title>
+
+</head>
+<body>
+    <div class="sticky-nav ">
+        <div class="nav-icons">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+        <div class="search-bar">
+            <div class="home">
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" class="inside" placeholder="What do you want to Play?" size="38" >
+            </div>
+        </div>
+      <div class="sticky-nav-option">
+        <button class="badge nv-item hide">Explore Premium</button>
+        <button class="badge nav-item dark-badge"><i class="fa-solid fa-circle-down dark-badge" style="margin-right: 0.5rem;"></i>Instal app</button>
+        <i class="fa-solid fa-bell" style="margin-right: 0.7rem;"></i>
+        <i class="fa-solid fa-user" style="margin-right: 0.5rem;"></i>
+      </div>
+    </div>
+    <div class="main">
+        
+        <div class="sidebar">
+        <div class="library">
+            <div class="option">
+                <div class="lib-option nav-option">
+                    <img src="./assets/library_icon.png" alt="l">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+         <div class="lib-box">
+            <div class="box">
+                <div class="box-p1">
+                    Create Your first playlist
+                </div>
+                <div class="box-p2"> it's easy ,we'll help you</div>
+                <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+                <div class="box-p1">
+                   Let's find some podcasts to follow
+                </div>
+                <div class="box-p2"> We'll keep you updated on new episodes</div>
+                <button class="badge">Browse podcasts</button>
+            </div>
+         </div>
+        </div>
+    </div>
+    <div class="main-content">
+       
+        <div class="sticky-main">
+            <button class="sticky-btn" style="background-color: white; color: black;">All</button>
+            <button class="sticky-btn">Music</button>
+            <button class="sticky-btn">Podcasts</button>
+        </div>
+            
+            <h2>Recently Played</h2>
+            
+               <div class="card-container">
+                <div class="card">
+                    <img src="./assets/apna.jpg" class="card-img">
+                    <p class="card-title">Apna Bana Le</p>
+                    <div class="card-info">Sachin-Jigar, Arijit Singh,Amitabh Bhattacharya</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/guru.jpg" class="card-img">
+                    <p class="card-title">Guru Randhawa</p>
+                    <div class="card-info">Your daily updates of the most played tracks</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/ranveer (1).jpg" class="card-img">
+                    <p class="card-title">Bollywood Mush</p>
+                    <div class="card-info">Jubin Nautiyal,Jagjit Singh, Ravi Raj and more</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/hardy.jpg" class="card-img">
+                    <p class="card-title">Hardy shandhu</p>
+                    <div class="card-info">Top hit songs playlist, most listened songs</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played tracks</div>
+                </div>
+                
+               </div>
+            
+
+            <h2>Trending now near you </h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiya Jinna sonha</p>
+                    <div class="card-info">Darshan Raval</div>
+                </div>
+          
+       
+            
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mere Paas Tum Ho</p>
+                    <div class="card-info">Rahat fateh Ali Khan</div>
+                </div>
+          
+
+            
+            
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top South Movies Songs</p>
+                    <div class="card-info">Your daily updates of the most played tracks</div>
+                </div>
+          
+                <div class="card">
+                    <img src="./assets/aaj.jpg" class="card-img">
+                    <p class="card-title">Aaj Ki Raat</p>
+                    <div class="card-info">Sachin-Jigar, Arijit Singh,Amitabh Bhattacharya</div>
+                </div>
+          
+            
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Best Top 50 - Global</p>
+                    <div class="card-info">Your daily updates of the most played tracks</div>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Trending Songs In India</p>
+                    <div class="card-info">Your daily updates of the most played tracks</div>
+                </div>
+          
+       
+            
+                <div class="card">
+                    <img src="./assets/thoda.jpg" class="card-img">
+                    <p class="card-title">Thoda Thoda pyaar </p>
+                    <div class="card-info">Nilesh Ahuja, Kumaar, Stebin Ben</div>
+                </div>
+          
+
+            
+            
+                <div class="card">
+                    <img src="./assets/safar.jpg" class="card-img">
+                    <p class="card-title">Safar</p>
+                    <div class="card-info">Juss, MixSingh</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/tum.jpg" class="card-img">
+                    <p class="card-title">Tum Hi Aana(From"Marjaavaan")</p>
+                    <div class="card-info">Payal Dev, Jubin Nautiyal, Kunaal Vermaa</div>
+                </div>
+
+                <div class="card">
+                    <img src="./assets/nain.jpg" class="card-img">
+                    <p class="card-title">Nain Matakka-From "Baby John"</p>
+                    <div class="card-info">Thaman S, Diljit Dosanjh, Dhee, Irshad Kmail</div>
+                </div>
+          
+            </div>
+            <div class="footer">
+                <div class="line"> </div>
+                <h1 class="creator">Made by - Rahul</h1>
+            </div>
+
+    </div>
+    <div class="music-player">
+        <div class="album">
+            <img src="./assets/card2img.jpeg" class="mahiya">
+            <div class="singer">
+                <p class="song">Mahiye Jinna Sohna</p>
+            <p style="opacity: 0.5;">Darshan Raval</p>
+            </div>
+            <i class="fa-solid fa-circle-plus pluss"></i>
+        </div>
+        <div class="player">
+            <div class="player-control">
+                <img src="./assets/player_icon1.png" class="player-control-icon">
+                <img src="./assets/player_icon2.png" class="player-control-icon">
+                <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 1.75rem;">
+                <img src="./assets/player_icon4.png" class="player-control-icon">
+                <img src="./assets/player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:45</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1">
+                <span class="tot-time">3:33</span>
+            </div>
+        </div>
+        <div class="control">
+            <i class="fa-solid fa-music fun"></i>
+            <i class="fa-solid fa-microphone-lines fun"></i>
+            <i class="fa-solid fa-list fun"></i>
+            <i class="fa-brands fa-chromecast fun"></i>
+            <i class="fa-solid fa-volume-low fun"></i>
+            <input type="range" min="0" max="100" class="vol" step="1">
+
+        </div>
+    </div>
+    </div>
+</body>
+</html>  
